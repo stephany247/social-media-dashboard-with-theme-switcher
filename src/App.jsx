@@ -141,7 +141,7 @@ function App() {
               >
                 <div
                   className={`w-4 h-4 bg-background rounded-full absolute top-1 transition-all ${
-                    isDark ? "right-1" : "left-1"
+                    !isDark ? "right-1" : "left-1"
                   }`}
                 ></div>
               </button>
