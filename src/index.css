@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.instagram-border {
+  border-image: linear-gradient(
+    to right,
+    hsl(37, 97%, 70%),
+    hsl(329, 70%, 58%)
+  );
+  border-image-slice: 1;
+  border-radius: 0.5rem;
+  -webkit-mask-image: radial-gradient(circle, white 100%, transparent);
+  mask-image: radial-gradient(circle, white 100%, transparent);
+}
+
+/* Dark mode */
+.dark {
+  --background: 230, 17%, 14%;
+  --top-bg: 232, 19%, 15%;
+  --card-bg: 228, 28%, 20%;
+  --text: 228, 34%, 66%;
+  --text-white: 0, 0%, 100%;
+  --toggle-from: 210, 78%, 56%;
+  --toggle-to: 146, 68%, 55%;
+}
+
+/* light mode */
+.light {
+  --background: 0, 0%, 100%;
+  --top-bg: 225, 100%, 98%;
+  --card-bg: 227, 47%, 96%;
+  --text: 228, 12%, 44%;
+  --text-white: 230, 17%, 14%;
+  --toggle-from: 230, 22%, 74%;
+  --toggle-to: 230, 22%, 74%;
+}
