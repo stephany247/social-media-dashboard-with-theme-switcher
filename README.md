@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Live Demo](https://github.com/stephany247/social-media-dashboard-with-theme-switcher)
-- Live Site URL: [Github Repo](https://social-media-dashboard-with-theme-switcher-gray-delta.vercel.app/)
+- Solution URL: [Github Repo](https://github.com/stephany247/social-media-dashboard-with-theme-switcher)
+- Live Site URL: [Live Demo](https://social-media-dashboard-with-theme-switcher-gray-delta.vercel.app/)
 
 ## My process
 
