@@ -137,7 +137,7 @@ function App() {
               <button
                 aria-pressed={isDark}
                 onClick={() => setIsDark(!isDark)}
-                className="w-10 h-6 rounded-full place-self-center bg-gradient-to-r from-toggle-from to-toggle-to hover:bg-primary-soft-cyan relative transition-all duration-300 ease-in-out"
+                className="w-10 h-6 rounded-full place-self-center bg-gradient-to-r from-toggle-from to-toggle-to hover:bg-gradient-to-r hover:from-[hsl(210,78%,56%)] hover:to-[hsl(146,68%,55%)] relative transition-all duration-300 ease-in-out"
               >
                 <div
                   className={`w-4 h-4 bg-background rounded-full absolute top-1 transition-all ${
@@ -152,7 +152,7 @@ function App() {
           {socialStats.map((stat, index) => (
             <div
               key={index}
-              className={`bg-card-bg flex flex-col items-center justify-center sm:justify-start gap-6 rounded-lg p-8 ${stat.borderColor} border-t-4`}
+              className={`bg-card-bg flex flex-col items-center justify-center sm:justify-start gap-6 rounded-lg p-8 ${stat.borderColor} border-t-4 transition-all duration-300 hover:brightness-[.85]`}
             >
               <div className="flex items-center justify-center gap-2">
                 <img
@@ -193,7 +193,7 @@ function App() {
           {engagementStats.map((stats, index) => (
             <div
               key={index}
-              className="bg-card-bg flex flex-col items-center justify-center sm:justify-start gap-6 rounded-lg p-6"
+              className="bg-card-bg flex flex-col items-center justify-center sm:justify-start gap-6 rounded-lg p-6 transition-all duration-300 hover:brightness-[.85]"
             >
               <div className="flex items-center justify-between w-full">
                 <p className="font-semibold">{stats.metric}</p>
